@@ -22,9 +22,9 @@ public class Dolare_euros {
             case 2:
                 int eu = 22,
                  conver;
-                int conv = Integer.parseInt(JOptionPane.showInputDialog("Digita la Dolares"));
-                ;
-
+                int conv = Integer.parseInt(JOptionPane.showInputDialog("Digita la Dolares"));                
+                
+                
                 conver = eu * conv;
                 JOptionPane.showMessageDialog(null, "La cantidad de Dolares a euros es: " + conver);
                 break;
