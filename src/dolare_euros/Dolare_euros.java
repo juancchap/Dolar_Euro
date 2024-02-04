@@ -7,7 +7,7 @@ public class Dolare_euros {
     public static void main(String[] args) {
         int Pesos;
 
-        Pesos = Integer.parseInt(JOptionPane.showInputDialog("Digita que conversion queres hacer"));
+        Pesos = Integer.parseInt(JOptionPane.showInputDialog("Digita que conversion queres hacer\n1: Dolares apesos\n2:Dolares a Euros"));
 
         switch (Pesos) {
             case 1:
